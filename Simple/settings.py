@@ -13,7 +13,7 @@ SECRET_KEY = '2_d3ogs)&bjfe_^s!26%!fmu7q@qlt=0=s^(pe=947_n1w*1xq'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["https://simple-table.herokuapp.com/"]
+ALLOWED_HOSTS = ["simple-table.herokuapp.com", "localhost:8000"]
 
 
 # Application definition
