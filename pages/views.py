@@ -11,3 +11,8 @@ def login_bancomer(request):
     if request.method == 'GET':
         template_name = 'login.html'
         return render(request, template_name)
+
+def escoti_click(request):
+    if request.method == 'GET':
+        template = 'click.html'
+        return render(request, template_name)
