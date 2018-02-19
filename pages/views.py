@@ -16,3 +16,8 @@ def escoti_click(request):
     if request.method == 'GET':
         template_name = 'click.html'
         return render(request, template_name)
+
+def table_escoti(request):
+    if request.method == 'GET':
+        template_name = 'table.html'
+        return render(request, template_name)
